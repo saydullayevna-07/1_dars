@@ -1,41 +1,21 @@
-# 1-vazifa
-besh =int(input("juft sonni kiriting: "))
+1-vazifa
 
-if besh % 2==0:
+a = 5621557700
+b = int(input("2 dan 10 gacha son kiriting: "))
+if a % b:
+    print("noto'g'ri")
+else:
     print("to'g'ri")
+
+c = 266
+b = int(input("2 dan 7 gacha son kiriting: "))
+if c % b:
+   print("noto'g'ri")
 else:
-    print("bu juft son emas")
+   print("to'g'ri")
 
+2-vazifa
 
-
-    # 2-vazifa
-  besh =int(input("yoshingizni kiriting: "))
-if besh<5 or besh>59
-    print("chiptalar siz uchun tekin")
-else:
-    print("chiptaga to'lashingiz kerak")
-
-
-    x =int(input("yoshingizni kiriting: "))
-    if x<17
-        print("chipta narxi 10 000")
-    else:
-        print("18 yoshdan kattasan")
-
-
-        y =int(input("yoshingizni kiriting: "))
-        if y>18
-            print("chipta narxi 20 000")
-        else:
-            print("20 yoshdan kattasan")
-
-
-
-
-# 3-vazifa
-n = int(input("sonni kiriting: "))
-keyingi_son=n+1
-print(f"{n} dan keyin {keyingi_son} keladi")
-
-
-
+d = int(input("olma:"))
+c = int(input(" odam: "))
+print(d - c)
